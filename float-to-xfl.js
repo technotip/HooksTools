@@ -1,3 +1,5 @@
+/* Demo: https://hooks.services/tools/float-to-xfl */
+
 const number = 10;
 console.log(floatToLEXfl(number)); // This returns the XFL of the entered number.
 
