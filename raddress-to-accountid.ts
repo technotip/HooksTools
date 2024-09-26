@@ -2,8 +2,8 @@
 
 import { decodeAccountID } from "ripple-address-codec";
 
-const decode = (accountId: string) => {
-   return Buffer.from(decodeAccountID(accountId.trim()))
+const decode = (raddress: string) => {
+   return Buffer.from(decodeAccountID(raddress.trim()))
     .toString("hex")
     .toUpperCase();
 } 
